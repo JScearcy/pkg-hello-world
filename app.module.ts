@@ -1,6 +1,6 @@
 import { Module } from 'nest.js';
-import { HelloController } from './hello.controller';
-import { BaseController } from './base.controller';
+import { HelloController } from './controllers/hello.controller';
+import { BaseController } from './controllers/base.controller';
 
 @Module({
     controllers: [
