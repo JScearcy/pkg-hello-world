@@ -7,5 +7,4 @@ export class HelloController {
         const response = await Promise.resolve("Hello world!")
         res.status(200).json(response);
     }
-
 }

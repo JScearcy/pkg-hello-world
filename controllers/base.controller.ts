@@ -7,5 +7,4 @@ export class BaseController {
         const response = await Promise.resolve("Base route")
         res.status(200).json(response);
     }
-
 }
